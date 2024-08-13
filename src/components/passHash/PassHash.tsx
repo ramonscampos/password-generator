@@ -13,10 +13,6 @@ const charactersLib = {
 export const PassHash = () => {
     const [password, setPassword] = useState('');
     const [length, setLength] = useState(10);
-    // const [includeLowercase, setIncludeLowercase] = useState(true);
-    // const [includeUppercase, setIncludeUppercase] = useState(false);
-    // const [includeNumbers, setIncludeNumbers] = useState(false);
-    // const [includeSymbols, setIncludeSymbols] = useState(false);
 
     const [conditions, setConditions] = useState({
         includeLowercase: true,
